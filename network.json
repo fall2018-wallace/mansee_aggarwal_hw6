@@ -30,14 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "mansee1",
-            "name": "clean.R",
-            "task_status": "in progress"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "mansee1",
+            "desc": "cleaning the dataset",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:01:26",
+    "updated_at": "2018-10-04 17:02:55",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
