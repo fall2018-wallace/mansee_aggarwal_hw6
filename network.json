@@ -13,24 +13,11 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "name": "data.csv"
         },
         {
             "assigned_to": "mansee1",
@@ -39,6 +26,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:02:55",
+    "updated_at": "2018-10-04 17:09:36",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
