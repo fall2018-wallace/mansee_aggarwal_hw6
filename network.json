@@ -28,7 +28,7 @@
         {
             "ports": [
                 {
-                    "output": "plot",
+                    "output": "plot1",
                     "type": "png"
                 }
             ],
@@ -56,6 +56,6 @@
             "name": "plot9503.png"
         }
     ],
-    "updated_at": "2018-10-04 17:34:09",
+    "updated_at": "2018-10-04 17:34:34",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
