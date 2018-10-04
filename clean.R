@@ -1,2 +1,4 @@
 
-readStates<-function(){
+readStates<-function(states){
+    
+}
