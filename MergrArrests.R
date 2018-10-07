@@ -1,4 +1,5 @@
 
 arrests<-USArrests
+str(arrests)
 
 
