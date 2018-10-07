@@ -17,23 +17,23 @@
         {
             "ports": [
                 {
-                    "input": "merge",
-                    "output": "cleanCensus",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "MergrArrests.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot1",
                     "type": "png"
                 }
             ],
             "source": "MergrArrests.R",
             "target": "plot9503.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergrArrests.R"
         }
     ],
     "nodes": [
@@ -56,6 +56,6 @@
             "name": "plot9503.png"
         }
     ],
-    "updated_at": "2018-10-04 17:34:34",
+    "updated_at": "2018-10-07 19:33:58",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
