@@ -1,5 +1,3 @@
 
-merge
-
-plot1<-hist(merge$population)
+arrests<-USArrests
 
