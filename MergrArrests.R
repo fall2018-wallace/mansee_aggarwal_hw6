@@ -24,7 +24,7 @@ plot5<-ggplot(df_final,aes(x=Rape)) +
 plot6<-ggplot(df_final,aes(y=population)) +
        geom_boxplot()
 
-plot7<-ggplot(df_final,aes(y=Muder,x="")) +
+plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        geom_boxplot()
        
        
