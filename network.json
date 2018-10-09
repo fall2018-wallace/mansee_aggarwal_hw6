@@ -47,18 +47,18 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "MergrArrests.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "hist_popultaion.png"
         },
         {
             "name": "hist_murder.png"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "",
+            "name": "MergrArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 19:56:06",
+    "updated_at": "2018-10-09 19:56:28",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
