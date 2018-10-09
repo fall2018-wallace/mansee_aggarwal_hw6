@@ -7,6 +7,6 @@ str(df_final)
 library(ggplot2)
 
 plot1<-ggplot(df_final,aes(x=population)) +
-  geom_histogram(color="black",fill="red",binwidth=10)
+  geom_histogram(color="black",fill="red",bin=30)
 
 
