@@ -1,6 +1,6 @@
 
 arrests<-USArrests
-
+?USArrests
 df_final<-merge(x=census,y=arrests,by.x="stateName",by.y="row.names")
 str(df_final)
 
@@ -26,5 +26,7 @@ plot6<-ggplot(df_final,aes(y=population)) +
 
 plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        geom_boxplot()
+       
+plot8<-ggplot(df_final,aes())
        
        
