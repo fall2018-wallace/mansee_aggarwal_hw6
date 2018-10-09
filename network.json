@@ -67,8 +67,11 @@
             "desc": "",
             "name": "MergrArrests.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "hist_assault.png"
         }
     ],
-    "updated_at": "2018-10-09 19:58:04",
+    "updated_at": "2018-10-09 20:00:13",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
