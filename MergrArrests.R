@@ -21,5 +21,5 @@ plot4<-ggplot(df_final,aes(x=UrbanPop)) +
 plot5<-ggplot(df_final,aes(x=Rape)) +
   geom_histogram(color="black",fill="red",bin=20)
 
-plot6<-ggplot(df_final,aes(x=stateName,y=population)) +
+plot6<-ggplot(df_final,aes(x=population)) +
        geom_boxplot()
