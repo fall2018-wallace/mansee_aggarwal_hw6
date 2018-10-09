@@ -119,8 +119,11 @@
         },
         {
             "name": "box_population.png"
+        },
+        {
+            "name": "box_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 20:04:23",
+    "updated_at": "2018-10-09 20:10:51",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
