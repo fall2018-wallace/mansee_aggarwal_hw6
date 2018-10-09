@@ -84,6 +84,16 @@
             ],
             "source": "MergrArrests.R",
             "target": "box_population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot7",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "box_murder.png"
         }
     ],
     "nodes": [
@@ -124,6 +134,6 @@
             "name": "box_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 20:10:51",
+    "updated_at": "2018-10-09 20:11:01",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
