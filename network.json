@@ -73,8 +73,11 @@
         },
         {
             "name": "hist_UrbanPop.png"
+        },
+        {
+            "name": "hist_rape.png"
         }
     ],
-    "updated_at": "2018-10-09 20:00:25",
+    "updated_at": "2018-10-09 20:00:36",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
