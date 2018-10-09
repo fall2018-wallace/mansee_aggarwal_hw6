@@ -22,7 +22,7 @@
                 }
             ],
             "source": "MergrArrests.R",
-            "target": "plot9503.png"
+            "target": "hist_popultaion.png"
         },
         {
             "ports": [
@@ -53,9 +53,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "plot9503.png"
+            "name": "hist_popultaion.png"
         }
     ],
-    "updated_at": "2018-10-07 19:35:05",
+    "updated_at": "2018-10-09 19:55:42",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
