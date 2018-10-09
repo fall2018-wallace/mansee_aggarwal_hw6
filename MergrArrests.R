@@ -12,9 +12,11 @@ plot1<-ggplot(df_final,aes(x=population)) +
 plot2<-ggplot(df_final,aes(x=Murder)) +
   geom_histogram(color="black",fill="red",bin=20)
   
-  plot2<-ggplot(df_final,aes(x=Murder)) +
+plot3<-ggplot(df_final,aes(x=Murder)) +
   geom_histogram(color="black",fill="red",bin=20)
-  plot2<-ggplot(df_final,aes(x=Murder)) +
+plot4<-ggplot(df_final,aes(x=Murder)) +
+  geom_histogram(color="black",fill="red",bin=20)
+plot5<-ggplot(df_final,aes(x=Murder)) +
   geom_histogram(color="black",fill="red",bin=20)
 
 
