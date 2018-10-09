@@ -74,6 +74,16 @@
             ],
             "source": "MergrArrests.R",
             "target": "hist_rape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot6",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "box_population.png"
         }
     ],
     "nodes": [
@@ -111,6 +121,6 @@
             "name": "box_population.png"
         }
     ],
-    "updated_at": "2018-10-09 20:04:13",
+    "updated_at": "2018-10-09 20:04:23",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
