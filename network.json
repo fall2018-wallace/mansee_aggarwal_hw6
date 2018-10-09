@@ -54,8 +54,11 @@
         },
         {
             "name": "hist_popultaion.png"
+        },
+        {
+            "name": "hist_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 19:55:42",
+    "updated_at": "2018-10-09 19:56:06",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
