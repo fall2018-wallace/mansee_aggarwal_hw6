@@ -23,3 +23,5 @@ plot5<-ggplot(df_final,aes(x=Rape)) +
 
 plot6<-ggplot(df_final,aes(y=population)) +
        geom_boxplot()
+       
+       
