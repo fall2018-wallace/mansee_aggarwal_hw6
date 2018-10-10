@@ -31,4 +31,7 @@ plot7<-ggplot(df_final,aes(y=Murder,x="")) +
 df_final$murder_state<- (df_final$Murder/100000)*df_final$population
 
 df_final
+
+plot8<-ggplot(df_final,aes(murder_state)) +
+
        
