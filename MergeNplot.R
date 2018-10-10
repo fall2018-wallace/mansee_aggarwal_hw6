@@ -10,16 +10,19 @@ library(ggplot2)
 #plotting histgram of population
 plot1<-ggplot(df_final,aes(x=population)) +
   geom_histogram(color="black",fill="red",bin=20)
+  
 #plotting histogram of Murder
 plot2<-ggplot(df_final,aes(x=Murder)) +
   geom_histogram(color="black",fill="red",bin=20)
+  
 #Plotting histogram of Assault 
 plot3<-ggplot(df_final,aes(x=Assault)) +
   geom_histogram(color="black",fill="red",bin=20)
-  
+ 
+#plotting histogram of UrbanPopulation
 plot4<-ggplot(df_final,aes(x=UrbanPop)) +
   geom_histogram(color="black",fill="red",bin=20)
-  
+ 
 plot5<-ggplot(df_final,aes(x=Rape)) +
   geom_histogram(color="black",fill="red",bin=20)
 
