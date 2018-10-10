@@ -23,6 +23,7 @@ plot3<-ggplot(df_final,aes(x=Assault)) +
 plot4<-ggplot(df_final,aes(x=UrbanPop)) +
   geom_histogram(color="black",fill="red",bin=20)
  
+#Plotting histogram of Rape
 plot5<-ggplot(df_final,aes(x=Rape)) +
   geom_histogram(color="black",fill="red",bin=20)
 
