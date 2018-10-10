@@ -171,8 +171,11 @@
         },
         {
             "name": "bar_reorder_stateName.png"
+        },
+        {
+            "name": "bar_fillColor.png"
         }
     ],
-    "updated_at": "2018-10-10 20:19:07",
+    "updated_at": "2018-10-10 20:20:38",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
