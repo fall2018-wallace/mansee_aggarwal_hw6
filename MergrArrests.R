@@ -28,6 +28,6 @@ plot6<-ggplot(df_final,aes(y=population)) +
 plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        geom_boxplot()
        
-plot8<-ggplot(df_final,aes())
+no_of_murders<-
        
        
