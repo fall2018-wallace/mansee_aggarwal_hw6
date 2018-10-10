@@ -35,7 +35,7 @@ df_final
 plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col()
        
-plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
+plot9<-ggplot(df_final,aes(x=reorder(stateName,murder_state),y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
 
