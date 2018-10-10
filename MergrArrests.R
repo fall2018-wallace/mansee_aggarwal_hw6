@@ -29,5 +29,7 @@ plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        geom_boxplot()
        
 no_of_murders<- df_final$population*df_final$Murder/100000
+
+no_of_murders
        
        
