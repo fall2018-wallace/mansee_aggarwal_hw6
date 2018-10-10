@@ -104,6 +104,16 @@
             ],
             "source": "MergrArrests.R",
             "target": "bar_no_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_murder_rotate",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "plot9.png"
         }
     ],
     "nodes": [
@@ -150,6 +160,6 @@
             "name": "plot9.png"
         }
     ],
-    "updated_at": "2018-10-10 19:55:57",
+    "updated_at": "2018-10-10 19:56:48",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
