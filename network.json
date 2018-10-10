@@ -145,8 +145,11 @@
         },
         {
             "name": "bar_no_murder.png"
+        },
+        {
+            "name": "plot9.png"
         }
     ],
-    "updated_at": "2018-10-10 19:51:38",
+    "updated_at": "2018-10-10 19:55:57",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
