@@ -21,7 +21,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_popultaion.png"
         },
         {
@@ -33,7 +33,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "MergrArrests.R"
+            "target": "MergeNplot.R"
         },
         {
             "ports": [
@@ -42,7 +42,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_murder.png"
         },
         {
@@ -52,7 +52,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_assault.png"
         },
         {
@@ -62,7 +62,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_UrbanPop.png"
         },
         {
@@ -72,7 +72,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_rape.png"
         },
         {
@@ -82,7 +82,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "box_population.png"
         },
         {
@@ -92,7 +92,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "box_murder.png"
         },
         {
@@ -102,7 +102,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "bar_no_murder.png"
         },
         {
@@ -112,7 +112,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "bar_murder_rotate.png"
         },
         {
@@ -122,7 +122,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "bar_reorder_stateName.png"
         },
         {
@@ -132,7 +132,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "bar_fillColor.png"
         },
         {
@@ -142,7 +142,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "scatterplot.png"
         }
     ],
@@ -195,10 +195,10 @@
         {
             "assigned_to": "mansee1",
             "desc": "Merging the census and USArrests data set and plotting is performed\r\n",
-            "name": "MergrArrests.R",
+            "name": "MergeNplot.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 21:53:44",
+    "updated_at": "2018-10-10 22:00:40",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
