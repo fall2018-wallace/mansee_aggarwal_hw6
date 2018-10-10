@@ -34,5 +34,7 @@ df_final
 
 plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col()
+       
+plot8<-ggplot(df_final,aes(x=reorder(stateName),y=murder_state)) +
 
        
