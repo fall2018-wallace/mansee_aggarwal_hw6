@@ -1,0 +1,142 @@
+{
+    "collaborators": [
+        "mansee1"
+    ],
+    "created_at": "2018-10-04 16:47:54",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot1",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "hist_popultaion.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergrArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "hist_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot3",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "hist_assault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot4",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "hist_UrbanPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot5",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "hist_rape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot6",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "box_population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot7",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "box_murder.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "cleaning the dataset",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "hist_popultaion.png"
+        },
+        {
+            "name": "hist_murder.png"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "",
+            "name": "MergrArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "hist_assault.png"
+        },
+        {
+            "name": "hist_UrbanPop.png"
+        },
+        {
+            "name": "hist_rape.png"
+        },
+        {
+            "name": "box_population.png"
+        },
+        {
+            "name": "box_murder.png"
+        },
+        {
+            "name": "bar_no_murder.png"
+        }
+    ],
+    "updated_at": "2018-10-10 19:51:28",
+    "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
+}
