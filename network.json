@@ -124,6 +124,16 @@
             ],
             "source": "MergrArrests.R",
             "target": "bar_reorder_stateName.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot11",
+                    "type": "png"
+                }
+            ],
+            "source": "MergrArrests.R",
+            "target": "bar_fillColor.png"
         }
     ],
     "nodes": [
@@ -176,6 +186,6 @@
             "name": "bar_fillColor.png"
         }
     ],
-    "updated_at": "2018-10-10 20:20:38",
+    "updated_at": "2018-10-10 20:20:54",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
