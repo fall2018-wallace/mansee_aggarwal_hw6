@@ -163,12 +163,6 @@
             "name": "hist_murder.png"
         },
         {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "MergrArrests.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "hist_assault.png"
         },
         {
@@ -197,8 +191,14 @@
         },
         {
             "name": "scatterplot.png"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "Merging the census and USArrests data set and plotting is performed\r\n",
+            "name": "MergrArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 20:28:59",
+    "updated_at": "2018-10-10 21:53:44",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
