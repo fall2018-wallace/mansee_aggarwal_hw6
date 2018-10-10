@@ -44,11 +44,11 @@ plot10<-ggplot(df_final,aes(x=reorder(stateName,murder_state),y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
        
-plot11<-ggplot(df_final,aes(x=reorder(stateName,murder_state),y=murder_state,fill=percentOver18)) +
+plot11<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,fill=percentOver18)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
        
 plot12<-ggplot(df_final,aes(x=population,y=percentOver18)) +
-        geom_point(aes(size=murder_state,color=murder_state))
+        geom_point(aes(size=Murder,color=Murder))
 
        
