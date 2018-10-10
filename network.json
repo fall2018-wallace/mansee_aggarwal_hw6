@@ -184,8 +184,11 @@
         },
         {
             "name": "bar_fillColor.png"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-10 20:20:54",
+    "updated_at": "2018-10-10 20:28:06",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
