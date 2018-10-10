@@ -49,5 +49,6 @@ plot11<-ggplot(df_final,aes(x=reorder(stateName,murder_state),y=murder_state,fil
        ggtitle("Total Murders")
        
 plot12<-ggplot(df_final,aes=(x=population,y=percentOver18,))
+        geom_point(aes(size=murder_state,color=murder_state))
 
        
