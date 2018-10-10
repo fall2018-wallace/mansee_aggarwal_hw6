@@ -108,7 +108,7 @@
         {
             "ports": [
                 {
-                    "output": "bar_murder_rotate",
+                    "output": "plot9",
                     "type": "png"
                 }
             ],
@@ -160,6 +160,6 @@
             "name": "plot9.png"
         }
     ],
-    "updated_at": "2018-10-10 19:56:48",
+    "updated_at": "2018-10-10 19:57:05",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
