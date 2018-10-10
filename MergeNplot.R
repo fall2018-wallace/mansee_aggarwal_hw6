@@ -28,9 +28,10 @@ plot5<-ggplot(df_final,aes(x=Rape)) +
   geom_histogram(color="black",fill="red",bin=20)
 
 #plotting boxplot of population
-plot6<-ggplot(df_final,aes(y=population)) +
+plot6<-ggplot(df_final,aes(y=population,x=factor(0))) +
        geom_boxplot()
 
+#plotting boxplot of murder
 plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        geom_boxplot()
        
