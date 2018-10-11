@@ -194,11 +194,11 @@
         },
         {
             "assigned_to": "mansee1",
-            "desc": "Merging the census and USArrests data set and plotting is performed\r\n",
+            "desc": "Merging two data sets and plotting is performed\r\n",
             "name": "MergeNplot.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 22:00:40",
+    "updated_at": "2018-10-11 01:01:51",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
