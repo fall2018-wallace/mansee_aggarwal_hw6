@@ -37,6 +37,7 @@ plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        
 # I think which visualisation is important depends on what type of analysis you want to do.
 #Since both the plots focus on different areas like histogram states frequency distribution,i.e.,
+# how often each value in the data set occur(total count)
        
 df_final$murder_state<- (df_final$Murder/100000)*df_final$population
 
