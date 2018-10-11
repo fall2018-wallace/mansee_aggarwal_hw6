@@ -43,6 +43,7 @@ plot7<-ggplot(df_final,aes(y=Murder,x="")) +
 # calculating number of murders per state and adding the vector to already existing dataset
 df_final$murder_state<- (df_final$Murder/100000)*df_final$population
 
+#printing df_final
 df_final
 
 plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
