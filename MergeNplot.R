@@ -55,6 +55,7 @@ plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
 #plotting the same barchart as previous one but with rotation of x axis texts
 plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
+       scale_y_continuous("Number of murders per state") +
        ggtitle("Total Murders") 
        
 #plotting the same barchart as previous one but with ordering the x axis with murder rate
