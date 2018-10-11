@@ -61,6 +61,7 @@ plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
 #plotting the same barchart as previous one but with ordering the x axis with murder rate
 plot10<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
+       scale_y_continuous("Number of murders per state") +
        ggtitle("Total Murders")
        
 #same as previous but showing percentOver18 as fill color
