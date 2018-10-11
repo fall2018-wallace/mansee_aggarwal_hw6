@@ -35,6 +35,8 @@ plot6<-ggplot(df_final,aes(y=population,x=factor(0))) +
 plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        geom_boxplot()
        
+# I think which visualisatiob imporatant on what type of analysis you want to do.
+       
 df_final$murder_state<- (df_final$Murder/100000)*df_final$population
 
 df_final
