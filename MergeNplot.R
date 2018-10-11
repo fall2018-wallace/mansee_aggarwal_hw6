@@ -32,7 +32,7 @@ plot6<-ggplot(df_final,aes(y=population,x=factor(0))) +
        geom_boxplot()
 
 #plotting boxplot of murder rate
-plot7<-ggplot(df_final,aes(y=Murder,x="")) +
+plot7<-ggplot(df_final,aes(y=Murder,x=factor(0))) +
        geom_boxplot()
        
 # I think which visualisation is important depends on what type of analysis you want to do.
@@ -53,16 +53,19 @@ plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
 #plotting the same barchart as previous one but with rotation of x axis texts
 plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
-       ggtitle("Total Murders")
+       ggtitle
+       
 #plotting the same barchart as previous one but with ordering the x axis with murder rate
 plot10<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
+       
 #same as previous but showing percentOver18 as fill color
 plot11<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,fill=percentOver18)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
-       
+
+#plotting scatter plot       
 plot12<-ggplot(df_final,aes(x=population,y=percentOver18)) +
         geom_point(aes(size=Murder,color=Murder))
 
