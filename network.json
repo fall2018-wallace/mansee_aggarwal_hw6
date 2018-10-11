@@ -21,7 +21,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_popultaion.png"
         },
         {
@@ -33,7 +33,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "MergrArrests.R"
+            "target": "MergeNplot.R"
         },
         {
             "ports": [
@@ -42,7 +42,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_murder.png"
         },
         {
@@ -52,7 +52,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_assault.png"
         },
         {
@@ -62,7 +62,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_UrbanPop.png"
         },
         {
@@ -72,7 +72,7 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
+            "source": "MergeNplot.R",
             "target": "hist_rape.png"
         },
         {
@@ -82,8 +82,8 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
-            "target": "box_population.png"
+            "source": "MergeNplot.R",
+            "target": "boxplot_population.png"
         },
         {
             "ports": [
@@ -92,8 +92,58 @@
                     "type": "png"
                 }
             ],
-            "source": "MergrArrests.R",
-            "target": "box_murder.png"
+            "source": "MergeNplot.R",
+            "target": "boxplot_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot8",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeNplot.R",
+            "target": "barchart_no_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot9",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeNplot.R",
+            "target": "barchart_murder_rotate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot10",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeNplot.R",
+            "target": "barchart_reorder_stateName.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot11",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeNplot.R",
+            "target": "barchart_fillColor.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot12",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeNplot.R",
+            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -113,12 +163,6 @@
             "name": "hist_murder.png"
         },
         {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "MergrArrests.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "hist_assault.png"
         },
         {
@@ -128,12 +172,33 @@
             "name": "hist_rape.png"
         },
         {
-            "name": "box_population.png"
+            "name": "boxplot_population.png"
         },
         {
-            "name": "box_murder.png"
+            "name": "boxplot_murder.png"
+        },
+        {
+            "name": "barchart_no_murder.png"
+        },
+        {
+            "name": "barchart_murder_rotate.png"
+        },
+        {
+            "name": "barchart_reorder_stateName.png"
+        },
+        {
+            "name": "barchart_fillColor.png"
+        },
+        {
+            "name": "scatterplot.png"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "Merging two data sets and plotting is performed\r\n",
+            "name": "MergeNplot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 20:11:01",
+    "updated_at": "2018-10-11 01:40:57",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
