@@ -50,6 +50,7 @@ df_final
 #plotting barchart with number of murders per state using geom_col function
 plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col() +
+       scale_y_continuous("number of murder per state")
        
 #plotting the same barchart as previous one but with rotation of x axis texts
 plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
