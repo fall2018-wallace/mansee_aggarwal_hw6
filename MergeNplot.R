@@ -58,7 +58,7 @@ plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
 plot10<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
-#
+#same as previous but showing percentOver18 as fill color
 plot11<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,fill=percentOver18)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
