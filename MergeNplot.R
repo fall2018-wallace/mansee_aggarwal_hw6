@@ -39,7 +39,8 @@ plot7<-ggplot(df_final,aes(y=Murder,x="")) +
 #Since both the plots focus on different areas like histogram states frequency distribution,i.e.,
 # how often each value in the data set occur(total count)
 #while box plot gives information about quartiles, median, outliers etc. 
-   
+
+# calculating number of murders per state and adding the vector to already existing dataset
 df_final$murder_state<- (df_final$Murder/100000)*df_final$population
 
 df_final
