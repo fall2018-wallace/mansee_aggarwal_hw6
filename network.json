@@ -103,7 +103,7 @@
                 }
             ],
             "source": "MergeNplot.R",
-            "target": "bar_no_murder.png"
+            "target": "barchart_no_murder.png"
         },
         {
             "ports": [
@@ -178,7 +178,7 @@
             "name": "box_murder.png"
         },
         {
-            "name": "bar_no_murder.png"
+            "name": "barchart_no_murder.png"
         },
         {
             "name": "barchart_murder_rotate.png"
@@ -199,6 +199,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 01:39:57",
+    "updated_at": "2018-10-11 01:40:18",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
