@@ -3,6 +3,7 @@
 readStates<-function(states){
 #removing first row
 states<-states[-1,]
+#counting number of rows
 num.row<-nrow(states)
 states<-states[-num.row,]
 states<-states[,-1:-4]
