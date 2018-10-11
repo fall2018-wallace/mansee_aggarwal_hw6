@@ -15,4 +15,5 @@ return(states)
 }
 #retured clean dataset 
 cleanCensus<-readStates(raw_data)
+#structure of cleaned dataset
 str(cleanCensus)
