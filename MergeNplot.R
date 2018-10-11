@@ -35,7 +35,8 @@ plot6<-ggplot(df_final,aes(y=population,x=factor(0))) +
 plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        geom_boxplot()
        
-# I think which visualisatiob imporatant on what type of analysis you want to do.
+# I think which visualisation is important depends on what type of analysis you want to do.
+#Since both the plots focus on different areas like histogram states frequency distribution,i.e.,
        
 df_final$murder_state<- (df_final$Murder/100000)*df_final$population
 
