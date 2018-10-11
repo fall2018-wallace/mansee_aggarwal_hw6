@@ -67,7 +67,7 @@ plot10<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state)) +
 #same as previous but showing percentOver18 as fill color
 plot11<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,fill=percentOver18)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
-       scale_y_continuous("Number of murders per state")+
+       labs(x="StateName",y="Number of murders per state")+
        ggtitle("Total Murders")
 
 #plotting scatter plot       
