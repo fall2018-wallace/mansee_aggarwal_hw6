@@ -48,21 +48,21 @@ df_final$murder_state<- (df_final$Murder/100000)*df_final$population
 df_final
 
 #plotting barchart with number of murders per state using geom_col function
-plot8<-ggplot(df_final,aes(x=stateName,y=murder_state,xlab="number of murders per state")) +
-       geom_col()
+plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
+       geom_col() +
        
 #plotting the same barchart as previous one but with rotation of x axis texts
-plot9<-ggplot(df_final,aes(x=stateName,y=murder_state,xlab="number of murders per state")) +
+plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
-       ggtitle
+       ggtitle("Total Murders")
        
 #plotting the same barchart as previous one but with ordering the x axis with murder rate
-plot10<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,xlab="number of murders per state")) +
+plot10<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
        
 #same as previous but showing percentOver18 as fill color
-plot11<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,fill=percentOver18,xlab="number of murders per state")) +
+plot11<-ggplot(df_final,aes(x=reorder(stateName,Murder),y=murder_state,fill=percentOver18)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
        ggtitle("Total Murders")
 
