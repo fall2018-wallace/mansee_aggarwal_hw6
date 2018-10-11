@@ -9,7 +9,7 @@ str(df_final)
 library(ggplot2)
 #plotting histgram of population with specifying color,fill and binwidth
 plot1<-ggplot(df_final,aes(x=population)) +
-  geom_histogram(color="black",fill="red",binwidth=5000)
+  geom_histogram(color="black",fill="red",bins=20)
   
 #plotting histogram of Murder rate with specifying color,fill and binwidth
 plot2<-ggplot(df_final,aes(x=Murder)) +
