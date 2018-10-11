@@ -7,23 +7,23 @@ str(df_final)
 
 #load ggplot2
 library(ggplot2)
-#plotting histgram of population
+#plotting histgram of population with specifying color,fill and binwidth
 plot1<-ggplot(df_final,aes(x=population)) +
   geom_histogram(color="black",fill="red",bin=20)
   
-#plotting histogram of Murder
+#plotting histogram of Murder rate with specifying color,fill and binwidth
 plot2<-ggplot(df_final,aes(x=Murder)) +
   geom_histogram(color="black",fill="red",bin=20)
   
-#Plotting histogram of Assault 
+#Plotting histogram of Assault with specifying color,fill and binwidth 
 plot3<-ggplot(df_final,aes(x=Assault)) +
   geom_histogram(color="black",fill="red",bin=20)
  
-#plotting histogram of UrbanPopulation
+#plotting histogram of UrbanPopulation with specifying color,fill and binwidth
 plot4<-ggplot(df_final,aes(x=UrbanPop)) +
   geom_histogram(color="black",fill="red",bin=20)
  
-#Plotting histogram of Rape
+#Plotting histogram of Rape with specifying color,fill and binwidth
 plot5<-ggplot(df_final,aes(x=Rape)) +
   geom_histogram(color="black",fill="red",bin=20)
 
@@ -31,7 +31,7 @@ plot5<-ggplot(df_final,aes(x=Rape)) +
 plot6<-ggplot(df_final,aes(y=population,x=factor(0))) +
        geom_boxplot()
 
-#plotting boxplot of murder
+#plotting boxplot of murder rate
 plot7<-ggplot(df_final,aes(y=Murder,x="")) +
        geom_boxplot()
        
