@@ -46,9 +46,9 @@ df_final$murder_state<- (df_final$Murder/100000)*df_final$population
 #printing df_final
 df_final
 
+#plotting barchart with number of murders per state using geom_col function
 plot8<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col()
-       
        
 plot9<-ggplot(df_final,aes(x=stateName,y=murder_state)) +
        geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1))+
