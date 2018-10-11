@@ -133,7 +133,7 @@
                 }
             ],
             "source": "MergeNplot.R",
-            "target": "bar_fillColor.png"
+            "target": "barchart_fillColor.png"
         },
         {
             "ports": [
@@ -187,7 +187,7 @@
             "name": "barchart_reorder_stateName.png"
         },
         {
-            "name": "bar_fillColor.png"
+            "name": "barchart_fillColor.png"
         },
         {
             "name": "scatterplot.png"
@@ -199,6 +199,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 01:40:30",
+    "updated_at": "2018-10-11 01:40:39",
     "url": "https://github.com/fall2018-wallace/mansee_aggarwal_hw6"
 }
